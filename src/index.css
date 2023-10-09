@@ -1,0 +1,89 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family:'regularA' ;
+  font-style: normal;
+  font-weight: 500;
+  src: local('regularA'),local('Nunito-Regular'),url(./assets/fonts/Nunito-Regular.ttf)format('truetype');
+}
+@font-face {
+  font-family:'regularB' ;
+  font-style: normal;
+  font-weight: 500;
+  src: local('regularB'),local('RedHatDisplay-Regular'),url(./assets/fonts/RedHatDisplay-Regular.ttf)format('truetype');
+}
+@font-face {
+  font-family:'interA' ;
+  font-style: normal;
+  font-weight: 800;
+  src: local('interA'),local('Montserrat-Bold'),url(./assets/fonts/Montserrat-Bold.ttf)format('truetype');
+}
+@font-face {
+  font-family:'interB' ;
+  font-style: normal;
+  font-weight: 800;
+  src: local('interB'),local('Inter-Bold'),url(./assets/fonts/Inter-Bold.ttf)format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scrollbar-width: none;
+  -ms-overflow-style:none; 
+}
+
+*::-webkit-scrollbar  {
+  display: none;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+}
+
+h1,h2,h3 {
+  font-family: interB, sans-serif;
+}
+
+p,button,a, span {
+  font-family: regularB, sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border:none;
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}

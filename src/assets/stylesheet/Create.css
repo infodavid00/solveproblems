@@ -1,0 +1,118 @@
+.material-create-meta-container {
+  margin-top: 10vh;
+}
+.material-create-meta-title {
+  text-align: left;
+  font-size: 1.70rem;
+  margin-top: 4vh;
+  animation-name: ease-in-out;
+  animation-duration: 0.8s;
+  color: var(--relative);
+  font-family: 'interB',sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  line-height: 1.4;
+  transition: 0.2s ease-in;
+  display: block;
+  width: 90vw;
+  border:none;
+  outline:none;
+  background-color: transparent;
+  resize: none;
+}
+.material-create-meta-tags-container {
+  margin-top: 2vh;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.material-create-meta-optbody {
+  text-align: left;
+}
+.material-create-meta-tags {
+  padding: 6px;
+  cursor: pointer;
+}
+.material-create-meta-tags-active {
+  color: dodgerblue;
+}
+.material-create-meta-actionbtn {
+  padding: 12px;
+  background-color: #222;
+  color:white;
+  font-family: 'regularA';
+  margin-top: 2.2vh;
+  cursor: pointer;
+}
+.material-create-body-main {
+  margin-top: 3vh;
+}
+.material-create-body-body {
+  text-align: left;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.material-create-body-body h3 {
+  font-family: 'InterB';
+}
+.material-create-body-title {
+  display: block;
+  width:100%;
+  border:none;
+  outline:none;
+  margin-bottom: 2.2vh;
+  font-family: 'regularB';
+}
+.material-create-body-code {
+  display: block;
+  width:100%;
+  border:none;
+  outline:none;
+  background-color: #222;
+  color:pink;
+  padding:10px;
+  font-family: 'Consolas';
+  line-height: 1.7;
+  resize:none;
+  transition: 0.3s ease;
+}
+.material-create-body-subcode {
+  margin-top: 1.5vh;
+  border-radius: 10px;
+}
+.material-create-body-options-cont  {
+  margin-top: 2vh;
+}
+.material-create-body-options-but {
+  padding: 15px;
+  cursor:pointer;
+}
+.material-create-body-options-cont:first-child {
+ cursor:none;
+}
+.material-create-body-options-but-main {
+  background-color: dodgerblue;
+  color:white;
+  padding: 15px;
+}
+.material-create-body-options-but:hover {
+  color:dodgerblue;
+}
+
+
+@media (min-width:700px) {
+.material-create-meta-optbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} 
+.material-create-meta-actionbtn {
+  margin-top: 0px;
+}
+.material-create-body-code {
+  width:60%;
+}
+}

@@ -1,0 +1,38 @@
+.container-problemsolving-c2 {
+  position: absolute;
+  margin-top: 12vh;
+}
+.seperator {
+  width: 91.5%;
+  margin:0 auto;
+}
+.material-c2-header {
+  text-align: left;
+}
+.material-c2-alttext  {
+  text-align: left;
+  font-size: 14px;
+  font-family: 'regularB';
+  margin-top: 1vh;
+}
+.material-c2-meta {
+  margin-top: 2vh;
+  display: flex;
+  gap: 1.2rem;
+}
+.material-c2-meta button {
+  padding: 5px;
+}
+.container-material-container-subhero {
+   position: absolute;
+   width: 100%;
+   text-align: left;
+   overflow: scroll;
+   padding: 10px;
+}
+
+@media (min-width:700px) {
+  .container-material-container-subhero {
+    max-width: 100%;
+  }
+}
